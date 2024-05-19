@@ -11,6 +11,7 @@ class TestApp(unittest.TestCase):
         self.assertEqual(add(1, 0), 1)
         self.assertEqual(add(0, 0), 0)
         self.assertEqual(add(-2, 0), -2)
+        self.assertEqual(add(-2, -2), -4)
 
 
 if __name__ == "__main__":
